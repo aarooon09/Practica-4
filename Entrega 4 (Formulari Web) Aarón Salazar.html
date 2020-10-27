@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Practica 4</title>
+        <meta name="author" content="Aarón Salazar">
+    </head>
+    <body>        
+        <header>
+            <h1>Registre d'Alumnes SMX2</h1>
+        </header>
+        <main>
+            <table>
+                <form action="mailto:aaronsalazararredondo@gmail.com?entrega4-m8-uf5">
+                    <tr>
+                        <td>Nom:</td> 
+                        <td><input type= "text" placeholder="Aaron" size="60" maxlength="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>Cognom:</td> 
+                        <td><input type="text" placeholder="Salazar" size="60" maxlength="80" required></td>
+                    </tr>
+                    <tr>
+                        <td>Mail:</td>
+                        <td><input type="email" placeholder="example@gmail.com" size="30" maxlength="30" required></td>
+                    </tr>
+                    <tr>
+                        <td>Data de Naixement:</td>
+                        <td><input type="date" placeholder="example@gmail.com" required></td>
+                    </tr>
+                    <tr>
+                        <td>Color Preferit:</td>
+                        <td><input type="color" placeholder="example@gmail.com" required></td>
+                    </tr>
+                    <tr>
+                        <td>Moduls Preferits de SMX2:</td>
+                        <td><p><input type="checkbox">M4 - Sistemes Operatius en Xarxa</p>
+                        <p><input type="checkbox">M6 - Seguretat Informatica</p>
+                        <p><input type="checkbox">M7 - Serveis en Xarxa</p>
+                        <p><input type="checkbox" checked>M8 - Aplicacions Web</p>
+                        <p><input type="checkbox">M10 - Empresa i Iniciativa Emprenedora</p>
+                        <p><input type="checkbox">M11 - Angles Tècnic</p></td>
+                    </tr>
+                    <tr> 
+                        <td value> Que voldries fer despres d'acabar SMX2?</td>
+                        <td><p><input type="radio">CFGS DAM</p>
+                        <p><input type="radio">CFGS DAW</p>
+                        <p><input type="radio" checked>CFGS ASIX</p>
+                        <p><input type="radio">Treballar</p>
+                        <p><input type="radio">Res</p></td>
+                    </tr>
+                    <tr>
+                       <th>Què t'esta sembla el llenguatge HTML?</th>
+                       <td>
+                            <select>
+                            <option>M'ha agradat molt</option>
+                            <option selected>M'ha agradat</option>
+                            <option>Ni fu ni fa</option>
+                            <option>No m'ha agradat gaire</option>
+                            <option>No m'ha agradat gens</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Nota que esperes d'aquesta entrega</th>
+                        <td><input type="number" max="10" min="0"></td>
+                    </tr>
+                    <tr>
+                        <th>Escriu un password per xifrar l'entrega</th>
+                        <td><input type="password" size="10" maxlength="10" required placeholder="Escriu un password" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar Respostes!"></td>
+                        <td><input type="reset" value="Netejar el formulari!"></td> 
+                    </tr>
+                </form> 
+            </table>
+        </main>
+    </body>
+</html>
